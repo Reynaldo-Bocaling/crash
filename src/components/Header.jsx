@@ -23,28 +23,15 @@ const Header = () => {
         <ul className="hidden md:flex items-center gap-7">
           {navlinks.map((item, index) => (
             <li key={index}>
-              <a href={item.url} className="text-white">
+              <a href={item.url} className="text-white text-3xl">
                 {item.label}
               </a>
             </li>
           ))}
         </ul>
-        <div className="hidden md:flex items-center gap-9">
-          <div className="flex items-center gap-5">
-            {socials.slice(0, 2)?.map((item, index) => (
-              <a
-                key={index}
-                href={item.url}
-                className="h-12 w-12 bg-dark-violet rounded-lg flex items-center justify-center"
-              >
-                <img src={item.img} className="w-[2rem]" alt="" />
-              </a>
-            ))}
-          </div>
-          <button className="text-lg text-white bg-dark-violet px-9 py-3 border border-black  rounded-lg">
-            Buy Now
-          </button>
-        </div>
+        <button className="shadow-effect text-white text-3xl font-mediun px-12 py-4 rounded-full bg-sky-500 mt-7 tracking-wider hidden md:flex">
+          Buy Now
+        </button>
         <button onClick={handleMenu} className="md:hidden">
           <CgMenuRight size={40} className="text-[#1b66ac] " />
         </button>

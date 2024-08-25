@@ -8,6 +8,7 @@ const Contact = () => {
         <div className="flex items-center justify-center gap-3 md:gap-9 mt-9 w-full">
           {socials.map((item, index) => (
             <a
+              href={item.url}
               key={index}
               className="w-16 h-16 bg-[#6fa3f7] relative flex items-center justify-center rounded-full"
             >

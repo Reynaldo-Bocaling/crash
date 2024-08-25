@@ -37,7 +37,7 @@ export const socials = [
   },
   {
     img: "/img/socials/tele.png",
-    url: "",
+    url: "https://t.me/crashcointron",
     variant: "w-16 h-16",
   },
   {
