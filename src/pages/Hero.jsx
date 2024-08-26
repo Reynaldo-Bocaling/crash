@@ -27,6 +27,11 @@ const Hero = () => {
         alt=""
         className="rounded-lg border-[3px] border-[#0cb5f2] mt-7"
       />
+      <img
+        src="/img/new1.jpeg"
+        alt=""
+        className="rounded-lg border-[3px] border-[#0cb5f2] mt-3"
+      />
     </section>
   );
 };
